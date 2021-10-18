@@ -1,0 +1,15 @@
+.card{
+    width: 18rem;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+}
+
+hr{
+    background-color:black;
+}

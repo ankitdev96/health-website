@@ -2,6 +2,8 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
+import { HashLink } from 'react-router-hash-link';
+
 
 const Header = () => {
   const {user,logOut} = useAuth();
@@ -19,20 +21,20 @@ const Header = () => {
       <ul className="nav nav-pills">
         <li className="nav-item">
           {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
-          <NavLink to="/home" className="nav-link active">Home</NavLink>
+          <NavLink as={HashLink} to="/home" className="nav-link active">Home</NavLink>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link active" >Services</a> */}
-          <NavLink to="/services" className="nav-link active">Services</NavLink>
+          <NavLink as={HashLink} to="/services" className="nav-link active">Services</NavLink>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link active" href="#">About Us</a> */}
-          <NavLink to="/about" className="nav-link active">About Us</NavLink>
+          <NavLink as={HashLink} to="/about" className="nav-link active">About Us</NavLink>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link active" href="#">Doctors</a>
            */}
-           <NavLink to="/doctors" className="nav-link active">Doctors</NavLink>
+           <NavLink as={HashLink} to="/doctors" className="nav-link active">Doctors</NavLink>
         </li>
         {user.email && <span>Hello {user.displayName}</span>}
 
@@ -42,7 +44,7 @@ const Header = () => {
             user.email ?
               <button onClick={logOut}>LogOut</button>
             :
-              <NavLink to="/login"  className="nav-link active">Login</NavLink>
+              <NavLink  to="/login"  className="nav-link active">Login</NavLink>
           }
 
           

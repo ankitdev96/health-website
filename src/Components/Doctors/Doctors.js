@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import {doctors} from './../../data'
 import './Doctors.css'
 const Doctors = () => {
@@ -23,6 +24,7 @@ const Doctors = () => {
                     })
                 }
             </div>
+            <Footer></Footer>
         </div>
     );
 };

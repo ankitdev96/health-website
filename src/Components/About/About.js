@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 
 const About = () => {
     return (
@@ -27,6 +28,7 @@ const About = () => {
                     <p>Progressively maintain extensive infomediaries via extensible niches. Dramatically disseminate standardized metrics.</p>
                 </div>
             </div>
+            <Footer></Footer>
 
 
         </div>

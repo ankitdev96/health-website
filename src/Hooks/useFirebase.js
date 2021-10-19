@@ -83,6 +83,7 @@ const handlePasswordChange = e =>{
 
 
       const logOut = ()=>{
+
         signOut(auth).then(() => {
             // Sign-out successful.
             setUser({});
@@ -109,6 +110,7 @@ const handlePasswordChange = e =>{
     
     return {
       signInWithGoogle,error,user,logOut,handleSignIn,handleRegistration,handlePasswordChange,handleEmailChange
+    
     }
 }
 

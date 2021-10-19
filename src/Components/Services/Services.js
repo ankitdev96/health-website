@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 import {services} from './../../data'
 import './Services.css'
 
@@ -32,6 +33,7 @@ const Services = () => {
                     })
                 }
             </div>
+            <Footer></Footer>
         </div>
     );
 };

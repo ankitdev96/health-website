@@ -5,8 +5,8 @@ Description: this site deals with healthcare services of people. We give health 
 live site:https://healthservice-842d2.web.app/login
 
 Five points:
--use private router
--use context api
--use redirect of router
--use bootstrap as css framework
--use firebase for hosting
+- use private router
+- use context api
+- use redirect of router
+- use bootstrap as css framework
+- use firebase for hosting

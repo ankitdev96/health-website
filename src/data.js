@@ -14,7 +14,7 @@ export const servicesForHome = [
     },
 
     {
-        id:3,
+       id:3,
         Name:'Heart Surgery',
         img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcYVCiap-CIiy90eDYhJgnEwVVa5Sdzy3s2w&usqp=CAU',
         Detail:'The most common type of heart surgery for adults is coronary artery bypass grafting (CABG). During CABG, a healthy artery or vein from the body is connected, or grafted, to a blocked coronary (heart) artery. All are available in our hospital. In your cheapest rate.'
@@ -74,7 +74,7 @@ export const services = [
 
 ]
 
-export const Doctors = [
+export const doctors = [
     {
         id:1,
         post:'FOUNDER / CHIEF SURGEON',
